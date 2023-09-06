@@ -1,0 +1,301 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+/* NavBar */
+#navigation{
+  background-color: #f8f9fa;
+  box-shadow: 0px 0px 35px -15px;
+}
+.navbar-brand{
+  font-weight:bold;
+}
+.nav-link{
+  font-weight:bold;
+}
+
+
+/* Header */
+#header{
+  background-color:  #f8f9fa;
+  border-bottom: solid 1px lightgrey;
+}
+.header-h1{
+  text-align: left;
+  font-size: 5rem;
+  margin: 25% 0 10% 20%;
+}
+.header-img{
+  padding: 35% 0;
+}
+.header-p{
+  text-align: left;
+  padding-left: 20%;
+}
+.header-btn{
+  margin-left: 20%;
+  margin-top: 3%;
+  margin-bottom: 15%;
+}
+.header-btn-sm{
+  display: none;
+}
+
+
+/* Skills */
+#skills{
+  padding: 10% 3%;
+  text-align: center;
+}
+.skills-icon {
+  color: #D61D4E;
+  margin-bottom: 5%;
+}
+.skills-icon:hover{
+  color: #FF0B55;
+}
+.skills-col{
+  margin: 5% 0;
+}
+.skills-icon-sm{
+  display: none;
+}
+
+
+/* Main Content */
+#content{
+  padding: 5% 0;
+  background-color: #FFDEE6;
+}
+.content-img{
+  box-shadow: 0px 0px 30px -10px black;
+}
+.content-row{
+  padding: 5% 0;
+}
+.content-col{
+  padding: 5% 0;
+}
+.content-text{
+  padding: 0 10%;
+}
+.content-right{
+  text-align: right;
+}
+.content-a{
+  color: #D61D4E;
+}
+.content-a:hover{
+  color: #FF0B55;
+}
+.content-col-img-sm{
+  display: none;
+}
+
+
+/* Testimonials */
+#testimonials{
+  padding: 10% 10%;
+  text-align: center;
+}
+.testimonial-carousel-item{
+  padding: 3% 15%;
+}
+.testimonial-carousel-inner{
+  background-color: #D61D4E;
+  color: #fff;
+  height: 300px;
+  box-shadow: 0px 0px 30px -10px black;
+}
+
+
+/* Footer */
+#footer{
+  background-color: #323232;
+  color: #fff;
+  padding: 10% 0;
+}
+.footer-col1{
+  padding: 0 10%;
+}
+.footer-heading{
+  font-weight:bold;
+  padding-bottom: 5%;
+  color: #FF0B55;
+}
+.footer-link{
+  color: #fff;
+}
+.footer-link:hover{
+  color: #FF0B55;
+}
+
+
+/* Copyright */
+#copyright{
+  background-color: #222222;
+  color: #fff;
+  text-align: center;
+  padding: 2% 0;
+}
+
+
+
+/* Tablet Devices */
+@media(min-width: 768px) and (max-width: 991px){
+  /* Header */
+  .header-h1{
+    text-align: left;
+    font-size: 3rem;
+    margin: 40% 0 10% 20%;
+  }
+  .header-img{
+    padding:40% 0;
+  }
+  .header-p{
+    font-size: 15px;
+  }
+  /* Main Content */
+  h1.content-text{
+    font-size: 30px;
+  }
+  p.content-text{
+    font-size: 14px;
+  }
+  .content-col{
+    padding: 3% 0;
+  }
+  /* Footer */
+  #footer{
+    padding: 10%;
+    text-align: center;
+  }
+  p.footer-col1{
+    padding-bottom: 10%;
+  }
+  .footer-col1{
+    padding: 0 20%;
+  }
+  .footer-heading{
+    padding-bottom: 5%;
+    font-size: 22px;
+  }
+  .footer-p{
+    font-size: 14px;
+  }
+}
+
+
+/* Mobile Devices */
+@media(min-width: 360px) and (max-width: 767px){
+  /* Header */
+  #header{
+    background-image: url("https://cdn.cp.adobe.io/content/2/dcx/9fc0cb00-d389-4574-83cb-f4c55aa6944d/rendition/preview.jpg/version/3/format/jpg/dimension/width/size/1200");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    text-align: center;
+  }
+  .header-row{
+
+    background-color: rgba(248, 249, 250, 0.6);
+  }
+  .header-h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 30% 0 5% 0;
+  }
+  .header-img{
+    display: none;
+  }
+  .header-p{
+    text-align: center;
+    padding-left: 0;
+    font-size: 15px;
+  }
+  .header-btn{
+    margin-left: 0;
+    margin-top: 5%;
+    margin-bottom: 20%;
+  }
+  .header-btn-lg{
+    display: none;
+  }
+  .header-btn-sm{
+    display: inline;
+  }
+
+  /* Skills */
+  .skills-icon-lg{
+    display: none;
+  }
+  .skills-icon-sm{
+    display: inline;
+  }
+  .skills-col h4{
+    font-size: 20px;
+  }
+
+  /* Main Content */
+  #content{
+    text-align: left;
+  }
+  .content-img{
+    width: 80%;
+  }
+  .content-row{
+    padding: 5% 0;
+  }
+  .content-col{
+    padding: 5% 0;
+  }
+  .content-text{
+    text-align: left;
+  }
+  h1.content-text{
+    font-size: 25px;
+  }
+  p.content-text{
+    font-size: 15px;
+  }
+  .content-right{
+    text-align: left;
+  }
+  .content-col-img {
+    text-align:center;
+    display: inline;
+  }
+  .content-col-img-lg{
+    display: none;
+  }
+
+  /* Testimonials */
+  .testimonial-carousel-inner{
+    height: 390px;
+  }
+  .testimonial-text{
+    font-size: 15px;
+  }
+
+  /* Footer */
+  #footer{
+    padding: 10%;
+    text-align: center;
+  }
+  p.footer-col1{
+    padding-bottom: 10%;
+  }
+  .footer-col1{
+    padding: 0 20%;
+  }
+  .footer-heading{
+    padding-bottom: 5%;
+    padding-top: 10%;
+    font-size: 18px;
+  }
+  .footer-p{
+    font-size: 13px;
+  }
+
+}

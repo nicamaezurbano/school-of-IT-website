@@ -1,0 +1,92 @@
+/* Emphasis */
+#emphasis{
+  background-image: url("https://images.unsplash.com/photo-1588581939864-064d42ace7cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+}
+.emphasis-text{
+  padding: 20% 20% 12% 20%;
+}
+.emphasis-h1{
+  padding: 5%;
+  font-size: 4rem;
+  text-align: center;
+  color: #323232;
+  background-color: rgba(248, 249, 250, 0.8);
+  box-shadow: 0px 0px 35px -15px black;
+}
+
+/* About */
+#about{
+  margin: 10% 0;
+}
+.about-h1{
+  margin: 0 10% 5% 10%;
+}
+.about-p{
+  margin: 0 10% 10% 10%;
+}
+.about-btn{
+  margin: 0 10%;
+}
+.outcome-card{
+  margin: 0 10%;
+}
+.rules-card{
+  margin: 0 10%;
+}
+.rules-link{
+  color: #323232;
+}
+.rules-link:hover{
+  color: #FF0B55;
+}
+
+
+/* Tablet Devices */
+@media(min-width: 768px) and (max-width: 991px){
+  /* Emphasis */
+  .emphasis-h1{
+    font-size: 3rem;
+  }
+  .rules-card{
+    margin: 15% 10% 0 10%;
+  }
+}
+
+
+/* Mobile Devices */
+@media(min-width: 360px) and (max-width: 767px){
+  /* Emphasis */
+  .emphasis-text{
+    padding: 28% 20% 12% 20%;
+  }
+  .emphasis-h1{
+    font-size: 2rem;
+  }
+  .rules-card{
+    margin: 15% 10% 0 10%;
+  }
+
+  /* About */
+  #about{
+    margin: 20% 0;
+  }
+  .about-h1{
+    font-size: 24px;
+  }
+  .about-p{
+    font-size: 15px;
+  }
+  .outcome-card{
+    font-size: 15px;
+  }
+  .card-header{
+    font-size: 18px;
+  }
+  .rules-link{
+    font-size: 15px;
+  }
+}

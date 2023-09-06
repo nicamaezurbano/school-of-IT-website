@@ -1,0 +1,206 @@
+/* Emphasis */
+#emphasis{
+  background-image: url("https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+}
+.emphasis-text{
+  padding: 20% 20% 12% 20%;
+}
+.emphasis-h1{
+  padding: 4%;
+  font-size: 4rem;
+  text-align: center;
+  color: #323232;
+  background-color: rgba(248, 249, 250, 0.8);
+  box-shadow: 0px 0px 35px -15px black;
+}
+.emphasis-btn-md{
+  display: none;
+}
+
+/* Virtual Campus Tour */
+#vct{
+  text-align: center;
+  margin: 10% 0;
+}
+.vct-p{
+ margin-bottom: 8%;
+}
+.yt-vct{
+  box-shadow: 0px 0px 35px -15px black;
+}
+
+/* Faculty */
+#faculty{
+  text-align: center;
+  background-color: #FFDEE6;
+  padding: 10% 0;
+}
+.faculty-card{
+  box-shadow: 0px 0px 35px -15px black;
+  margin: 5%;
+}
+.faculty-h1{
+  margin-bottom: 8%;
+}
+.faculty-icon {
+  color: #D61D4E;
+}
+.faculty-icon:hover {
+  color: #FF0B55;
+}
+
+
+/* Officers */
+#officers{
+  padding: 10% 0;
+}
+.officers-h1{
+  text-align: center;
+  margin-bottom: 8%;
+}
+.officers-h5{
+  text-align: center;
+}
+
+
+/* School Calendar */
+#AYCalendar{
+  background-image: url("https://images.unsplash.com/photo-1588453251771-cd919b362ed4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80");
+  background-repeat: no-repeat;
+  background-size:auto;
+  background-attachment:scroll;
+  background-position: center bottom;
+  margin: 10% 20%;
+}
+.calendar-row{
+  box-shadow: 11px 11px 30px -10px;
+}
+.calendar-text{
+  background-color: #D61D4E;
+  padding: 10%;
+}
+.calendar-h1{
+  padding: 0 10%;
+  color: #fff;
+}
+.calendar-btn{
+  margin: 5% 10% 0 10%;
+}
+
+
+/* Tablet Devices */
+@media(min-width: 768px) and (max-width: 991px){
+  /* Emphasis */
+  .emphasis-text{
+    padding: 30% 15% 20% 15%;
+  }
+  .emphasis-h1{
+    font-size: 3rem;
+    padding: 10%;
+  }
+  .emphasis-btn-md{
+    display: inline;
+  }
+  .emphasis-btn-lg{
+    display: none;
+  }
+
+  /* Virtual Campus Tour */
+  #vct{
+    margin: 20% 0;
+  }
+  .yt-vct{
+    width: 100%;
+    height: 400px;
+  }
+
+  /* School Calendar */
+  .calendar-h1{
+    font-size: 30px;
+  }
+}
+
+
+/* Mobile Devices */
+@media(min-width: 360px) and (max-width: 767px){
+  /* Emphasis */
+  .emphasis-text{
+    padding: 50% 0 30% 0;
+  }
+  .emphasis-h1{
+    font-size: 2rem;
+    padding: 10%;
+  }
+  .emphasis-btn-md{
+    display: inline;
+  }
+  .emphasis-btn-lg{
+    display: none;
+  }
+
+  /* Virtual Campus Tour */
+  #vct{
+    margin: 20% 0;
+  }
+  .yt-vct{
+    width: 100%;
+    height: 290px;
+  }
+  .vct-h1{
+    font-size: 24px;
+  }
+  .vct-p{
+    font-size: 15px;
+  }
+
+  /* Faculty */
+  #faculty{
+    padding: 25% 10%;
+  }
+  .faculty-h1{
+    font-size: 24px;
+    margin-bottom: 15%;
+  }
+  .card-title{
+    font-size: 18px;
+  }
+  .card-text{
+    font-size: 15px;
+  }
+
+  /* Officers */
+  #officers{
+    padding: 25% 0;
+  }
+  .officers-h1{
+    font-size: 24px;
+    margin-bottom: 15%;
+  }
+  .officers-h5{
+    text-align: center;
+  }
+  .officers-img{
+    height: 180px;
+  }
+  .list-group-item{
+    font-size: 13px;
+  }
+
+  /* School Calendar */
+  #AYCalendar{
+    margin: 5% 0 0 0;
+  }
+  .calendar-h1{
+    font-size: 24px;
+  }
+  .calendar-text{
+    margin: 25% 0;
+  }
+  .calendar-row{
+    box-shadow: 0 0;
+  }
+}
